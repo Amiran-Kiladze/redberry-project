@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire</title> 
+
+  
+
+    <link rel="stylesheet" href="1.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rowdies:wght@700&display=swap" rel="stylesheet">
+
+    
+
+    
+    <link rel="stylesheet" href="questionnaire.css">
+    <link rel="stylesheet" href="display.css">
+
+    
+  </head>
+  <body>
+
+    <form  id="mainform" method="post">
+
+      <!-- first page Welcome Rocketeer  -->
+      <div id="to_make_dissapear">
+      <main id="main_content">
+        <h1 id="welcome_rocketeer" >Welcome Rocketeer !</h1>
+    
+        
+        <button type="button" class="btn_questionnaire">Start Questionnaire</button>
+        
+    
+    
+        <a href="3.html" class="submitted_applications">Submitted Applications</a>
+    
+        <img src="pictures/6f7c4615d45526a5f978b2a74856f6b3.png" alt="space_man_picture" class="space_man">
+       </main>
+      </div> 
+
+
+
+
+  
+<!-- first page of questions  -->
+    
+
+    <div id="personal_information_all" class="all_pages display_page" > 
+      <div id="personal_information_first_page" class="first_page">
+      <h1>Hey Rocketeer, what are your coordinates?</h1>
+     
+      <div class="personal_information_first_page_content">
+
+        <div class="error">
+
+        </div>
+    
+      <p>
+        <input
+          type="text"
+          name="first_name"
+          id="firs_name"
+          placeholder="First Name"
+        />
+      </p>
+      <p>
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          placeholder="Last Name"
+        />
+      </p>
+      <p>
+        <input type="email" name="email" id="email" placeholder="E Mail"  />
+      </p>
+      <p>
+        <input type="tel" name="phone" id="phone"
+        
+        placeholder="+995 5__ __ __ __" />
+      </p>
+      
+    </div>
+ 
+      <div class="controlls">
+        <span class="left_arrow"><span class="left_arrow_arrow1"></span><span class="left_arrow_arrow2"></span></span>
+        <span class="controll_personal_page"></span>
+        <span class="controll_skills_page"></span>
+        <span class="controll_covid_page"></span>
+        <span class="controll_about_page"></span>
+        <span class="controll_submit_page"></span>
+        <span class="rigt_arrow"><span class="right_arrow_arrow1"></span><span class="right_arrow_arrow2"></span></span>
+      </div>
+
+
+      </div>
+        <div id="personal_information_second_page" class="second_page" >
+          <h2>Redbery Origins</h2>
+          <div class="information_right">
+          <p> You watch “What? Where? When?” Yeah. Our founders used to play it. That’s 
+            where they got a question about a famous American author and screenwriter Ray Bradbury.
+             Albeit, our CEO Gaga Darsalia forgot the exact name and he answered Ray Redberry. And at that moment, a name for a yet
+              to be born company was inspired - Redberry 😇</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- second page of questions ________________ -->
+
+
+
+
+
+    
+    <div id="skills_information_all" class="all_pages display_page" > 
+      <div id="skills_information_first_page" class="first_page">
+      <h2>Tell us about your skills</h2>
+      <div class="error2">
+
+      </div>
+      <div class="skills_information_first_page_content">
+     
+        <p>
+          <select name="skills" id="skills"  >
+            <option value="" disabled selected>Skills</option>
+            
+          </select>
+        </p>
+        <p>
+          <input
+            type="number"
+            name="experience"
+            id="experience"
+            placeholder="Experience Duration in Years"
+          
+          />
+        </p>
+        <button id="btn_add_skill" type="button">Add Programming Language</button>
+      
+
+       <div id="skills_info">
+
+       </div> 
+      </div>
+
+       <div class="controlls">
+        <span class="left_arrow"><span class="left_arrow_arrow1"></span><span class="left_arrow_arrow2"></span></span>
+        <span class="controll_personal_page"></span>
+        <span class="controll_skills_page"></span>
+        <span class="controll_covid_page"></span>
+        <span class="controll_about_page"></span>
+        <span class="controll_submit_page"></span>
+        <span class="rigt_arrow"><span class="right_arrow_arrow1"></span><span class="right_arrow_arrow2"></span></span>
+      </div>
+
+
+
+
+      </div>
+      <div id="skills_information_second_page" class="second_page">
+        <h2>A bit about our battles</h2>
+        <div class="information_right"> 
+        <p>As we said, Redberry has been on the field for quite some time now, 
+          and we have touched and embraced a variety of programming languages, technologies,
+           philosophies, and frameworks. We are battle-tested in PHP Laravel Stack with Vue.js,
+            refined in React, and allies with Serverside technologies like Docker and Kubernetes, 
+            and now we have set foot in the web3 industry.</p>
+        </div>
+
+      </div>
+    </div> 
+
+    <!-- third page of questions ____________ -->
+
+
+    
+    <div id="covid_information_all" class="all_pages display_page">
+       <div id="covid_information_first_page" class="first_page">
+      
+      <h2>Covid Stuff</h2>
+      <div class="error3">
+
+      </div>
+      <div class="covid_information_first_page_content">
+        <!-- <div class="prefer_to_work">  -->
+          
+       <p>how would you prefer to work</p>
+       
+        <input type="radio" name="work_preference" id="office" value="from_office">
+        <label for="office">From Sairme Office</label>
+        <br>
+
+        <input type="radio" name="work_preference" id="home" value="from_home">
+        <label for="home">From Home</label>
+        <br>
+
+        <input type="radio" name="work_preference" id="hybrid" value="hybrid">
+        <label for="hybrid">Hybrid</label>
+       
+        <!-- </div> -->
+
+
+    <div>
+        <p>Did you contact covid 19? :(</p> 
+        <input type="radio" name="had_covid" id="covid_yes" value="true" >
+        <label for="covid_yes">Yes</label>
+        <br>
+
+        <input type="radio" name="had_covid" id="covid_no" value="false">
+        <label for="covid_no">No</label>
+      </div>
+ <!-- 11111. ქვედა დივი ჩნდება მხოლოდ იმ შემთხვევაში
+     თუ წინა ინფუთში კი მიეთითა -->
+    <div id="covid_time" class="display_property">
+        <p>When?</p>
+        <!-- <input type="date" name="had_covid_at" id="had_covid_at" > -->
+        <input type="text" placeholder="date" name="had_covid_at" id="had_covid_at"
+                    onfocus="(this.type='date')">
+
+    </div>
+    <!-- 11111. __________________ -->
+
+    <div>
+        <p>Have you been vaccinated?</p>
+        <input type="radio" name="vaccinated" id="vaccinated_yes" value="true">
+        <label for="covid_yes">Yes</label>
+        <br>
+
+        <input type="radio" name="vaccinated" id="vaccinated_no" value="false">
+        <label for="vaccinated_no">No</label>
+    </div> 
+
+    <!-- 22222. ქვედა დივი ჩნდება მხოლოდ იმ შემთხვევაში
+         თუ წინა ინფუთში კი მიეთითა -->
+         <div id="vaccinated_time" class="display_property">
+             <p>When did you get last covid vaccine</p>
+             <!-- <input type="date" name="vaccinated_at" id="vaccinated_at" > -->
+             <input type="text" placeholder="date"  name="vaccinated_at" id="vaccinated_at"
+             onfocus="(this.type='date')">
+         </div>
+
+
+    <!-- 22222.______________ -->
+  </div>
+
+    <div class="controlls">
+      <span class="left_arrow"><span class="left_arrow_arrow1"></span><span class="left_arrow_arrow2"></span></span>
+      <span class="controll_personal_page"></span>
+      <span class="controll_skills_page"></span>
+      <span class="controll_covid_page"></span>
+      <span class="controll_about_page"></span>
+      <span class="controll_submit_page"></span>
+      <span class="rigt_arrow"><span class="right_arrow_arrow1"></span><span class="right_arrow_arrow2"></span></span>
+    </div>
+        
+      </div>
+      <div id="covid_information_second_page" class="second_page"> 
+        <h2> Redbery Covid Policies</h2>
+        <div class="information_right">
+        <p> As this infamous pandemic took over the world, we adjusted 
+          our working practices so that our employees can be as safe and comfortable as possible.
+           We have a hybrid work environment, so you can either work from home or visit our lovely
+            office on Sairme Street. If it was up to us, we would love you to see us in the office
+             because we think face-to-face communications > Zoom meetings. Both on the fun 
+             and productivity scales.</p>
+             </div>
+
+      </div>
+
+    </div>  
+
+    <!-- forth page of questions -->
+
+
+    <div id="about_you_information_all" class="all_pages display_page">
+      <div id="about_you_information_first_page" class="first_page">
+        <h2>What about you?</h2>
+        <div class="error4">
+
+        </div>
+        <div  class="about_information_first_page_content">
+
+        <div class="devtalk_attend">
+            <p>Would you attend DevTalks and maybe also organaize your own</p>
+            <input type="radio" name="will_organize_devtalk" id="devtalks_yes" value="true">
+            <label for="devtalks_yes">Yes</label>
+            <br>
+            <input type="radio" name="will_organize_devtalk" id="devtalks_no" value="false">
+            <label for="devtalks_no">No</label>
+        </div>
+
+          <!-- 33333. ქვედა დივი ჩნდება მხოლოდ იმ შემთხვევაში
+         თუ წინა ინფუთში კი მიეთითა -->
+
+        <div id="div_devtalk_topic" class="display_property">
+            <p>What Would you speak about Devtalk</p>
+            <textarea name="devtalk_topic" id="devtalk_topic" 
+            cols="30" rows="10" placeholder="I would..."></textarea>
+        </div>
+          
+        <!-- 33333_____________________ -->
+
+
+        <div class="div_something_special">
+            <p>Tellus something special</p>
+            <textarea name="something_special" id="something_special" cols="30" rows="10" placeholder="I ..."></textarea>
+        </div> 
+
+      </div>
+
+
+        <div class="controlls">
+          <span class="left_arrow"><span class="left_arrow_arrow1"></span><span class="left_arrow_arrow2"></span></span>
+          <span class="controll_personal_page"></span>
+          <span class="controll_skills_page"></span>
+          <span class="controll_covid_page"></span>
+          <span class="controll_about_page"></span>
+          <span class="controll_submit_page"></span>
+          <span class="rigt_arrow"><span class="right_arrow_arrow1"></span><span class="right_arrow_arrow2"></span></span>
+        </div>
+
+
+
+
+
+    </div>   
+    <div id="about_you_information_second_page" class="second_page">
+      <h2>Redberrian Insights</h2>
+      <div class="information_right">
+      <p>We were soo much fun before the pandemic started! Parties almost every weekend
+         and lavish employee birthday celebrations! Unfortunately, covid ruined that fun
+          like it did almost everything else in the world. But we try our best to zhuzh 
+          it up a bit. For example, we host biweekly Devtalks where our senior and lead 
+          developers talk about topics they are passionate about. Previous topics have 
+          included Web3, NFT, Laravel 9, Kubernetes, etc. We hold these talks in the office
+           but you can join our Zoom broadcast as well. Feel free to join either as an attendee
+            or a speaker!</p>
+            </div>
+
+    </div>
+  </div>
+  
+     <!-- fifth page of sumbit ________ -->
+
+
+     <div id="sumbit_button_page" class="display_page">
+       <button id="btn">Submit</button>
+       <p id="go_back">go back</p> 
+     </div>
+
+
+</form> 
+
+
+<div class="thanks_for_joining last_display" >
+  <div class="last_div">
+    
+      <span id="thanks_span"> Thanks for joining  &#128522; </span>	
+    
+  </div>
+
+</div>
+
+
+
+
+
+<script src="pagesDisplay.js"></script>
+<script src="dependsOnInput.js"></script>
+<script src="sendingForm.js"></script>
+<script src="skills.js"></script>
+<!-- <script src="getInfo.js"></script> -->
+  </body>
+</html>

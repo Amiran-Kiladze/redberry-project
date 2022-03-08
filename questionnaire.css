@@ -1,0 +1,357 @@
+.all_pages {
+    display: flex;
+}
+
+.first_page {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.first_page h2,  .first_page h1 {
+    width: 788px;
+    height: 175px;
+    color: #FE3B1F;
+    font-family: Rowdies;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 79px;
+/* display: flex; */
+align-items: center;
+text-align: center;
+}
+
+.second_page {
+    width: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+    color: white;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.second_page h2 {
+    color: #FE3B1F;
+    font-size: 64px;
+    line-height: 79px;
+    font-family: Rowdies;
+    font-weight: 700;
+    width: 730px;
+    height: 94px;
+}
+
+.second_page p  {
+    width:705px;
+    height: 606px;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 200%;
+    align-items: center;
+    font-weight: normal;
+    font-family:Montserrat;
+}
+
+
+#sumbit_button_page{
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%); 
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 480px 0px 0px 0px ;
+    
+}
+
+#sumbit_button_page button {
+    width: 395px;
+    height: 79px;
+    background: #FE3B1F;
+    border-radius: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#sumbit_button_page p {
+    color: white;
+    font-family: Montserrat;
+    text-decoration: underline;
+    font-size: 28px;
+    line-height: 34px;
+    cursor: pointer;
+  
+}
+
+.controlls {
+    margin-top: 13px;
+}
+ 
+
+.controll_personal_page, .controll_skills_page, .controll_covid_page, .controll_about_page, .controll_submit_page  {
+    width: 19px;
+    height: 19px;
+    background-color: rgba(254, 59, 31, 0.3);
+    border-radius: 50%;
+    display: inline-block;
+    /* cursor: pointer; */
+    margin-left: 10px;
+}
+
+.controll_personal_page{
+    background-color: rgba(254, 59, 31, 1);
+}
+
+
+.left_arrow, .rigt_arrow {
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid #FE3B1F ;
+    display: inline-block;
+    color: #FE3B1F;
+    position: relative;
+    cursor: pointer;
+}
+.rigt_arrow{
+    margin-left: 10px;
+}
+
+.left_arrow_arrow1 {
+    width: 8px;
+    height: 3px;
+    display: inline-block;
+    position: absolute;
+    background-color:#FE3B1F;
+    /* transform: translateY(-100px); */
+    transform-origin: left;
+    transform: rotate(-30deg);
+    bottom: 5px;
+    right: 2px;
+    
+}
+.left_arrow_arrow2 {
+    width: 8px;
+    height: 3px;
+    position: absolute;
+    display: inline-block;
+    background-color:#FE3B1F;
+    /* transform: translateY(-6px); */
+    transform-origin: left;
+    transform: rotate(30deg);
+    bottom: 5px;
+    right: 2px;
+  
+}
+
+
+.right_arrow_arrow1 {
+    width: 8px;
+    height: 3px;
+    display: inline-block;
+    position: absolute;
+    background-color:#FE3B1F;
+    /* transform: translateY(-100px); */
+    transform-origin: right;
+    transform: rotate(30deg);
+    bottom: 5px;
+    right: 2px;
+    
+}
+
+.right_arrow_arrow2 {
+    width: 8px;
+    height: 3px;
+    position: absolute;
+    display: inline-block;
+    background-color:#FE3B1F;
+    /* transform: translateY(-6px); */
+    transform-origin: right;
+    transform: rotate(-30deg);
+    bottom: 5px;
+    right: 2px;
+  
+}
+
+
+
+#personal_information_first_page input {
+    width: 455px;
+    height: 54px;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: italic;
+    margin-top: 20px;
+  
+}
+
+.personal_information_first_page_content {
+    width: 455px;
+    height: 533px;
+}
+
+.skills_information_first_page_content {
+    width: 455px;
+    height: 533px;
+}
+
+
+.skills_information_first_page_content select, .skills_information_first_page_content input {
+    width: 455px;
+    height: 54px;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    color:#727272;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: white;
+}
+
+.skills_information_first_page_content button {
+    width: 201px;
+height: 32px;
+background: #FE3B1F;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF; 
+border: none;
+margin-bottom: 20px;
+/* transform: translateX(255px); */
+transform: translateX(126%);
+
+}
+
+
+.covid_information_first_page_content {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+    height: 50%;
+    
+} 
+/* test ____________________ */
+/* .covid_information_first_page_content input[type=date], */
+ #had_covid_at, #vaccinated_at {
+    width: 455px;
+    height: 54px;
+    border: 1px solid #525557;
+    box-sizing: border-box;
+    color: #454545; 
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: white;
+}
+
+
+
+.about_information_first_page_content {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat;
+    color: #000000;
+    height: 50%;
+}
+
+#devtalk_topic{
+    width: 535px;
+height: 122px;
+border: 1px solid #525557;
+box-sizing: border-box;
+font-family: Montserrat;
+resize: none;
+}
+
+#something_special {
+    width: 535px;
+    height: 89px;
+border: 1px solid #525557;
+box-sizing: border-box;
+font-family: Montserrat;
+resize: none;
+}
+
+
+/* .devtalk_attend {
+    width: 645px;
+   height: 119px;
+}
+
+.div_devtalk_topic{
+    width: 645px;
+   height: 185px;
+}
+
+
+.div_something_special {
+    width: 645px;
+    height: 152px;
+} */
+
+.error, .error2, .error3, .error4 {
+    font-family: Montserrat; 
+    color:rgb(219, 43, 43)  ; 
+}
+
+.last_display {
+    display: none;
+}
+.thanks_for_joining {
+  
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%); 
+
+}
+
+.last_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+} 
+
+#thanks_span {
+    width: 1066px;
+    height: 191px;
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+    color: #FE3B1F;
+}

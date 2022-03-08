@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main_content {
+
+    background-color:  black;
+    background-image: url("pictures/f0ac27f1ff63894902fec4af51ae8ce5.png");
+    background-size:contain ;
+    height:100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* max-height: 1200px; */
+}
+
+#welcome_rocketeer {
+  margin-top: 2em ;
+  color:  #FE3B1F;
+  font-family: 'Rowdies', cursive;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+
+.btn_questionnaire {
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    color: white;
+    background-color: #FE3B1F;
+    border: none;
+    padding: 27px 90px;
+    border-radius: 50px;
+    margin-top: 5rem;
+    cursor: pointer;
+}
+
+.submitted_applications {
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top:3rem;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.space_man{
+    width: 25rem;
+    height: 28rem;
+    transform: rotate(335deg);
+    margin-bottom: 70px;
+}
+
+
+/* @media (max-width:1150px) {
+    #welcome_rocketeer {
+        font-size: 50px;
+    }
+    .questionnaire {
+        font-size: 15px;
+        padding:20px 60px ;
+    }
+     .submitted_applications {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:650px) {
+    #welcome_rocketeer {
+        font-size: 35px;
+    }
+    .questionnaire {
+        font-size: 15px;
+        padding:14px 35px ;
+    }
+     .submitted_applications {
+        font-size: 14px;
+    }
+    .space_man{
+        width: 150px;
+        height: 200px;
+        
+    }
+}
+
+@media (max-width:415px) {
+    #welcome_rocketeer {
+        font-size: 30px;
+    }
+    .questionnaire {
+        font-size: 12px;
+        padding:10px 28px ;
+    }
+     .submitted_applications {
+        font-size: 12px;
+    }
+    .space_man{
+        width: 150px;
+        height: 200px;
+        
+    }
+} */

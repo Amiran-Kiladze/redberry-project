@@ -79,7 +79,7 @@ for (let i = 0; i < controllRightArrow.length; i++) {
         errorElement.textContent = "Last name should have at least 2 characters ";
     }
 
-     else if(!emailInputValidation.value.includes("@") || emailInputValidation.value.length < 4 || emailInputValidation.value.indexOf("@") === 0) {
+     else if(!emailInputValidation.value.includes("@") || emailInputValidation.value.length < 4 || emailInputValidation.value.indexOf("@") === 0 || emailInputValidation.value.indexOf("@") === emailInputValidation.value.length - 1) {
         errorElement.textContent = "Enter valid email it should contain @, it should't start with @ it should't end with @";
     } 
      
@@ -331,7 +331,7 @@ for (let i = 0; i < controllRightArrow.length; i++) {
 
         })
 
-
+ 
 
         // about you validation end 
 
